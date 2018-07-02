@@ -40,7 +40,7 @@ def waveletH(w):
         will be used to construct the filter. w must be between 0 and 2pi.
     
     Output:
-        H (numpoy array): contains the function H(w) = exp(1j*w/2) * cos(w/2)**3. 
+        H (numpy array): contains the function H(w) = exp(1j*w/2) * cos(w/2)**3. 
     '''
     return np.exp(1j*w/2) * np.cos(w/2) ** 3 
     
